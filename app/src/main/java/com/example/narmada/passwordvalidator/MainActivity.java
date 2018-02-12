@@ -8,9 +8,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    public EditText inputText;
     public Button validateB;
     public TextView result;
-    public EditText inputText;
     private boolean click;
 
     @Override
